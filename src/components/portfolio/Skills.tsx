@@ -54,33 +54,37 @@ const Skills = () => {
   ];
 
   return (
-    <section className="py-20 px-6 bg-background-secondary/30">
+    <section id="skills" className="py-20 px-6 bg-background-secondary/40">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold gradient-text mb-6 animate-fade-in">
             Skills & Expertise
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Technologies and tools I use to bring ideas to life and solve complex problems.
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-body animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            A comprehensive toolkit of technologies, creative tools, and methodologies I leverage to transform ideas into impactful digital solutions.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {skillCategories.map((category, index) => (
-            <Card key={index} className="glass-card p-6 border-0">
-              <h3 className="text-xl font-semibold mb-6 text-center gradient-text">
+            <Card 
+              key={index} 
+              className="glass-card p-6 border-0 hover:shadow-card-hover transition-all duration-500 group animate-fade-in"
+              style={{ animationDelay: `${0.4 + index * 0.2}s` }}
+            >
+              <h3 className="text-xl font-serif font-semibold mb-6 text-center gradient-text group-hover:scale-105 transition-transform duration-300">
                 {category.title}
               </h3>
               <div className="space-y-4">
                 {category.skills.map((skill, skillIndex) => (
                   <div key={skillIndex} className="space-y-2">
                     <div className="flex justify-between text-sm">
-                      <span>{skill.name}</span>
-                      <span className="text-muted-foreground">{skill.level}%</span>
+                      <span className="font-body font-medium">{skill.name}</span>
+                      <span className="text-muted-foreground font-body">{skill.level}%</span>
                     </div>
                     <Progress 
                       value={skill.level} 
-                      className="h-2 bg-muted/30"
+                      className="h-2 bg-muted/30 [&>div]:bg-gradient-primary"
                     />
                   </div>
                 ))}
@@ -90,30 +94,34 @@ const Skills = () => {
         </div>
 
         <div className="text-center mb-12">
-          <h3 className="text-2xl font-semibold gradient-text mb-8">
-            Certifications & Learning
+          <h3 className="text-2xl font-serif font-semibold gradient-text mb-8 animate-fade-in" style={{ animationDelay: '1s' }}>
+            Education & Certifications
           </h3>
           <div className="grid md:grid-cols-3 gap-6">
             {certifications.map((cert, index) => (
-              <Card key={index} className="glass-card p-6 border-0 text-center">
-                <h4 className="font-semibold mb-2">{cert.title}</h4>
-                <p className="text-muted-foreground text-sm mb-1">{cert.issuer}</p>
-                <p className="text-primary text-sm">{cert.year}</p>
+              <Card 
+                key={index} 
+                className="glass-card p-6 border-0 text-center hover:shadow-warm transition-all duration-500 group animate-fade-in"
+                style={{ animationDelay: `${1.2 + index * 0.1}s` }}
+              >
+                <h4 className="font-serif font-semibold mb-2 text-primary group-hover:text-primary-light transition-colors">{cert.title}</h4>
+                <p className="text-muted-foreground text-sm mb-1 font-body">{cert.issuer}</p>
+                <p className="text-secondary text-sm font-body font-medium">{cert.year}</p>
               </Card>
             ))}
           </div>
         </div>
 
         <div className="text-center">
-          <Card className="glass-card p-8 border-0 max-w-3xl mx-auto">
-            <h3 className="text-2xl font-semibold gradient-text mb-4">
-              Continuous Growth
+          <Card className="glass-card p-8 border-0 max-w-3xl mx-auto hover:shadow-card-hover transition-all duration-500 animate-fade-in" style={{ animationDelay: '1.5s' }}>
+            <h3 className="text-2xl font-serif font-semibold gradient-text mb-4">
+              Philosophy & Growth Mindset
             </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              As a recent graduate, I'm eager to continue learning and growing in the tech industry. 
-              My experience in leadership, teamwork, and time management, combined with my technical 
-              skills, positions me well for contributing to innovative projects and forward-thinking 
-              organizations.
+            <p className="text-muted-foreground leading-relaxed font-body">
+              I believe that the best solutions emerge from the intersection of technical excellence and creative thinking. 
+              As a lifelong learner, I'm constantly exploring new technologies, design trends, and methodologies. 
+              My collaborative approach, combined with strong leadership and problem-solving skills, allows me to contribute 
+              meaningfully to innovative projects while fostering positive team dynamics.
             </p>
           </Card>
         </div>
