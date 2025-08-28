@@ -6,49 +6,49 @@ const Skills = () => {
     {
       title: "Frontend",
       skills: [
-        { name: "React/Next.js", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Vue.js", level: 85 },
-        { name: "TailwindCSS", level: 95 },
-        { name: "Three.js", level: 75 }
+        { name: "React Native", level: 85 },
+        { name: "JavaScript", level: 90 },
+        { name: "HTML/CSS", level: 95 },
+        { name: "Java", level: 80 },
+        { name: "Python", level: 85 }
       ]
     },
     {
-      title: "Backend",
+      title: "Backend & Frameworks",
       skills: [
-        { name: "Node.js", level: 90 },
-        { name: "Python", level: 85 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "MongoDB", level: 85 },
-        { name: "GraphQL", level: 80 }
+        { name: "ASP.NET API", level: 80 },
+        { name: "MVC", level: 80 },
+        { name: "C#", level: 85 },
+        { name: "Game Development", level: 80 },
+        { name: "Database Management", level: 75 }
       ]
     },
     {
-      title: "Tools & Others",
+      title: "Design & Tools",
       skills: [
-        { name: "Git/GitHub", level: 95 },
-        { name: "Docker", level: 80 },
-        { name: "AWS", level: 75 },
-        { name: "Figma", level: 85 },
-        { name: "Testing", level: 80 }
+        { name: "Figma", level: 90 },
+        { name: "Adobe XD", level: 85 },
+        { name: "Visual Studio", level: 85 },
+        { name: "WordPress", level: 80 },
+        { name: "UI/UX Design", level: 88 }
       ]
     }
   ];
 
   const certifications = [
     {
-      title: "AWS Certified Developer",
-      issuer: "Amazon Web Services",
-      year: "2023"
+      title: "Bachelor of Software Engineering",
+      issuer: "Jordan University of Science & Technology",
+      year: "2024"
     },
     {
-      title: "Google Cloud Professional",
-      issuer: "Google Cloud",
-      year: "2022"
+      title: "React Native Development",
+      issuer: "Jo Vision Internship",
+      year: "2024"
     },
     {
-      title: "React Advanced Patterns",
-      issuer: "Frontend Masters",
+      title: "UI/UX Design",
+      issuer: "The Hope International",
       year: "2023"
     }
   ];
@@ -107,13 +107,13 @@ const Skills = () => {
         <div className="text-center">
           <Card className="glass-card p-8 border-0 max-w-3xl mx-auto">
             <h3 className="text-2xl font-semibold gradient-text mb-4">
-              Always Learning
+              Continuous Growth
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Technology evolves rapidly, and I'm committed to staying current with the latest trends, 
-              frameworks, and best practices. I regularly participate in online courses, attend tech 
-              conferences, and contribute to open-source projects to keep my skills sharp and expand 
-              my knowledge base.
+              As a recent graduate, I'm eager to continue learning and growing in the tech industry. 
+              My experience in leadership, teamwork, and time management, combined with my technical 
+              skills, positions me well for contributing to innovative projects and forward-thinking 
+              organizations.
             </p>
           </Card>
         </div>

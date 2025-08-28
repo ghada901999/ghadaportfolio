@@ -5,50 +5,26 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      title: "Multiplayer Shooting Game",
+      description: "Designed and built a multiplayer shooting game using C# showcasing game logic, UI design, and real-time gameplay mechanics developed as part of academic coursework.",
+      image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&h=400&fit=crop",
+      tech: ["C#", "Game Development", "UI Design", "Multiplayer"],
       demo: "#",
-      code: "#"
+      code: "https://github.com/ghada991999"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      tech: ["Vue.js", "Firebase", "Vuetify", "Socket.io"],
+      title: "Python 2D Game",
+      description: "Created an interactive 2D game using Pygame, demonstrating Python programming expertise and game development principles with engaging gameplay mechanics.",
+      image: "https://images.unsplash.com/photo-1556438064-2d7646166914?w=600&h=400&fit=crop",
+      tech: ["Python", "Pygame", "2D Graphics", "Game Logic"],
       demo: "#",
-      code: "#"
+      code: "https://github.com/ghada991999"
     },
     {
-      title: "Weather Analytics Dashboard",
-      description: "A data visualization dashboard that displays weather patterns and analytics using D3.js and real-time weather APIs.",
-      image: "https://images.unsplash.com/photo-1504608245560-5814a5b39a8e?w=600&h=400&fit=crop",
-      tech: ["React", "D3.js", "Express", "MongoDB"],
-      demo: "#",
-      code: "#"
-    },
-    {
-      title: "AI Chatbot Interface",
-      description: "An intelligent chatbot interface with natural language processing, context awareness, and seamless user experience.",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
-      tech: ["Next.js", "OpenAI API", "TailwindCSS", "Vercel"],
-      demo: "#",
-      code: "#"
-    },
-    {
-      title: "Fitness Tracking Mobile App",
-      description: "A comprehensive fitness tracking application with workout planning, progress monitoring, and social features.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop",
-      tech: ["React Native", "Redux", "Firebase", "Expo"],
-      demo: "#",
-      code: "#"
-    },
-    {
-      title: "Cryptocurrency Portfolio",
-      description: "A real-time cryptocurrency portfolio tracker with price alerts, news integration, and advanced analytics.",
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop",
-      tech: ["TypeScript", "React", "CoinGecko API", "Chart.js"],
+      title: "HCI Toy Game Interface",
+      description: "Developed a toy game interface using Adobe XD, emphasizing UX design principles and human-computer interaction with intuitive user-friendly designs.",
+      image: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&h=400&fit=crop",
+      tech: ["Adobe XD", "UX Design", "HCI", "Interface Design"],
       demo: "#",
       code: "#"
     }
@@ -62,7 +38,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A selection of my recent work showcasing different technologies and problem-solving approaches.
+            Academic projects showcasing my skills in software engineering, game development, and UI/UX design.
           </p>
         </div>
 

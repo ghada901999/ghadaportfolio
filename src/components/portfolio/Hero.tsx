@@ -14,17 +14,17 @@ const Hero = () => {
           {/* Main heading */}
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold gradient-text animate-glow">
-              John Doe
+              Ghada Musallam
             </h1>
             <h2 className="text-2xl md:text-3xl text-muted-foreground">
-              Full Stack Developer & Designer
+              Software Engineer & Frontend Developer
             </h2>
           </div>
           
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            I craft beautiful, functional digital experiences with modern technologies. 
-            Passionate about clean code, elegant design, and solving complex problems.
+            Ambitious software engineer with expertise in frontend development and UI/UX design. 
+            Passionate about creating impactful digital solutions with clean code and elegant design.
           </p>
           
           {/* CTA Buttons */}
@@ -49,19 +49,19 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 pt-8">
             <a 
-              href="#" 
+              href="https://github.com/ghada991999" 
               className="p-3 glass-card rounded-full hover:scale-110 transition-transform duration-300"
             >
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="#" 
+              href="https://linkedin.com/in/ghada-zaid-33a079262/" 
               className="p-3 glass-card rounded-full hover:scale-110 transition-transform duration-300"
             >
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
-              href="#" 
+              href="mailto:ghadamsallam17@gmail.com" 
               className="p-3 glass-card rounded-full hover:scale-110 transition-transform duration-300"
             >
               <Mail className="h-6 w-6" />

@@ -15,19 +15,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "john.doe@example.com",
-      href: "mailto:john.doe@example.com"
+      value: "ghadamsallam17@gmail.com",
+      href: "mailto:ghadamsallam17@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+962 78 245 3051",
+      href: "tel:+962782453051"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Jordan",
       href: "#"
     }
   ];
@@ -106,9 +106,9 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-6">Get in touch</h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Whether you have a question about my work, want to discuss a potential 
-                project, or just want to say hello, I'm always open to connecting with 
-                fellow creators and innovators.
+                I'm actively seeking opportunities in software engineering and frontend 
+                development. Whether you want to discuss potential projects, collaboration 
+                opportunities, or just connect, I'd love to hear from you!
               </p>
             </div>
 
@@ -141,8 +141,8 @@ const Contact = () => {
             <Card className="glass-card p-6 border-0">
               <h4 className="font-semibold mb-3">Availability</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Currently available for freelance projects and full-time opportunities. 
-                Open to both remote work and local collaborations in the San Francisco Bay Area.
+                Fresh graduate actively seeking full-time opportunities in software engineering 
+                and frontend development. Open to remote work and on-site positions in Jordan and internationally.
               </p>
             </Card>
           </div>
