@@ -43,16 +43,19 @@ const Projects = () => {
       title: "StrideX – Footwear Brand Identity",
       category: "Design",
       description: "A contemporary footwear brand offering a diverse range of sneakers, including athletic, orthopedic, and fashion-forward designs.",
-      fullDescription: "A contemporary footwear brand offering a diverse range of sneakers, including athletic, orthopedic, and fashion-forward designs, encompassing logo design, packaging, and promotional materials.",
+      fullDescription: "A comprehensive brand identity for StrideX footwear, featuring dynamic logo design, product visualization, packaging design, and complete brand system. The project showcases modern athletic aesthetics with bold red and black color schemes, creating a strong visual presence across all touchpoints including product mockups, promotional materials, and brand collateral.",
       image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=400&fit=crop",
       images: [
         "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=400&fit=crop",
         "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop"
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1627225924765-552d49cf47ad?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=400&fit=crop"
       ],
-      tech: ["Adobe Illustrator", "Photoshop", "After Effects"],
-      challenges: "Designing a versatile brand identity that works across both product packaging and promotional visuals while staying modern and dynamic.",
-      techniques: "Developed modular logo variations, mockup templates for sneakers, and motion graphics to showcase the brand digitally.",
+      tech: ["Adobe Illustrator", "Photoshop", "After Effects", "3D Rendering", "Brand Strategy"],
+      challenges: "Designing a versatile brand identity that works across both product packaging and promotional visuals while staying modern and dynamic. The challenge was creating a cohesive system that could scale from logo applications to full product visualization and marketing materials.",
+      techniques: "Developed modular logo variations, comprehensive sneaker mockup templates, motion graphics for digital showcase, and created a complete brand guidelines system. Utilized 3D rendering techniques for product visualization and implemented consistent color psychology with bold red accents against black and white foundations.",
       demo: "#",
       code: "#"
     },
