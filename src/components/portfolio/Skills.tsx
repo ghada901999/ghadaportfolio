@@ -16,11 +16,11 @@ const Skills = () => {
     {
       title: "Backend & Frameworks",
       skills: [
-        { name: "ASP.NET API", level: 80 },
-        { name: "MVC", level: 80 },
-        { name: "C#", level: 85 },
-        { name: "Game Development", level: 80 },
-        { name: "Database Management", level: 75 }
+        { name: "ASP.NET API", level: 40 },
+        { name: "MVC", level: 45 },
+        { name: "C#", level: 34 },
+        { name: "Game Development", level: 25 },
+        { name: "Database Management", level: 56 }
       ]
     },
     {

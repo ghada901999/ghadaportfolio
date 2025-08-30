@@ -68,7 +68,7 @@ const Contact = () => {
               variant="outline" 
               size="lg"
               className="border-secondary/30 text-foreground hover:bg-secondary/10 font-serif font-medium"
-              onClick={() => window.open('https://linkedin.com/in/ghada-zaid-33a079262/', '_blank')}
+              onClick={() => window.open('https://www.linkedin.com/in/ghada-msallam-33a079262/', '_blank')}
             >
               <Coffee className="mr-2 h-5 w-5" />
               Let's Chat
@@ -137,7 +137,7 @@ const Contact = () => {
                   <Github className="h-5 w-5 group-hover:text-primary transition-colors" />
                 </a>
                 <a 
-                  href="https://linkedin.com/in/ghada-zaid-33a079262/" 
+                  href="https://www.linkedin.com/in/ghada-msallam-33a079262/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 glass-card rounded-lg flex items-center justify-center hover:scale-110 hover:shadow-warm transition-all duration-300 group"

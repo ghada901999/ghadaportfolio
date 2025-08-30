@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download, Palette } from "lucide-react";
 import Logo from "./Logo";
 
 const Hero = () => {
@@ -22,6 +22,20 @@ const Hero = () => {
             <a href="#projects" className="text-foreground hover:text-primary transition-colors font-body">Projects</a>
             <a href="#skills" className="text-foreground hover:text-primary transition-colors font-body">Skills</a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors font-body">Contact</a>
+            <a 
+              href="https://www.behance.net/suga2002" 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button 
+                variant="outline" 
+                size="sm"
+                className="border-primary/30 text-foreground hover:bg-primary/10 mr-3"
+              >
+                <Palette className="h-4 w-4 mr-2" />
+                Behance
+              </Button>
+            </a>
             <Button 
               variant="outline" 
               size="sm"
@@ -48,8 +62,8 @@ const Hero = () => {
               <h1 className="text-5xl md:text-7xl font-serif font-bold gradient-text animate-glow">
                 Ghada Musallam
               </h1>
-              <h2 className="text-2xl md:text-3xl text-muted-foreground font-body">
-                Creative Software Engineer & Frontend Developer
+            <h2 className="text-2xl md:text-3xl text-muted-foreground font-body">
+                Creative Software Engineer & UX/UI Designer
               </h2>
             </div>
             
@@ -91,7 +105,7 @@ const Hero = () => {
                 <Github className="h-6 w-6 group-hover:text-primary transition-colors" />
               </a>
               <a 
-                href="https://linkedin.com/in/ghada-zaid-33a079262/" 
+                href="https://www.linkedin.com/in/ghada-msallam-33a079262/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 glass-card rounded-full hover:scale-110 hover:shadow-warm transition-all duration-300 group"
