@@ -44,17 +44,18 @@ const About = () => {
             <h3 className="text-2xl font-serif font-semibold text-primary">My Creative Journey</h3>
             <p className="text-muted-foreground leading-relaxed font-body">
               As a recent graduate from Jordan University of Science & Technology with a 
-              Bachelor's in Software Engineering, I've discovered my passion lies at the intersection 
-              of technology and creativity. Through diverse internships in React Native development, 
-              UI/UX design, and graphic design, I've cultivated a unique blend of technical precision 
-              and artistic vision.
+              Bachelor's in Software Engineering, I'm currently working remotely as a UX/UI Designer 
+              at Dealers Auto Center, Texas. My passion lies at the intersection of technology and creativity, 
+              where I've cultivated a unique blend of technical precision and artistic vision through 
+              diverse experiences in frontend development, UI/UX design, and leadership roles.
             </p>
             <p className="text-muted-foreground leading-relaxed font-body">
               What drives me is the challenge of transforming complex problems into elegant, 
               user-friendly solutions. From building multiplayer games in C# to crafting 
               intuitive interfaces in Figma and Adobe XD, I approach every project with 
-              curiosity, creativity, and a commitment to excellence. I thrive in collaborative 
-              environments and have a natural inclination for leadership and mentorship.
+              curiosity, creativity, and a commitment to excellence. My experience leading 
+              teams and mentoring peers has strengthened my collaborative skills and natural 
+              inclination for innovation in forward-thinking organizations.
             </p>
           </div>
           
@@ -66,8 +67,8 @@ const About = () => {
                   <div className="text-muted-foreground font-body">Graduate</div>
                 </div>
                 <div className="group-hover:scale-105 transition-transform duration-300">
-                  <div className="text-3xl font-serif font-bold gradient-text">4+</div>
-                  <div className="text-muted-foreground font-body">Internships</div>
+                  <div className="text-3xl font-serif font-bold gradient-text">6+</div>
+                  <div className="text-muted-foreground font-body">Experiences</div>
                 </div>
                 <div className="group-hover:scale-105 transition-transform duration-300">
                   <div className="text-3xl font-serif font-bold gradient-text">15+</div>
