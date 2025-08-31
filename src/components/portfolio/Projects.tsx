@@ -160,20 +160,23 @@ const Projects = () => {
       code: "https://github.com/ghada901999/Disaster-Management-Application-DMA-"
     },
     {
-      title: "Upcycled Food System (UCFS)",
-      category: "Development",
-      description: "An innovative system aimed at reducing food waste by upcycling surplus food into new products, with a user-friendly interface for tracking and managing items.",
-      fullDescription: "An innovative system aimed at reducing food waste by upcycling surplus food into new products, with a user-friendly interface for tracking and managing items.",
-      image: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&h=400&fit=crop",
+      title: "UpCycled Food System",
+      category: "Design",
+      description: "A comprehensive mobile app design for reducing food waste through upcycling surplus food, featuring intuitive user interface and sustainable shopping experience.",
+      fullDescription: "A comprehensive mobile app design for reducing food waste through upcycling surplus food, featuring intuitive user interface and sustainable shopping experience with onboarding, shopping categories, and waste tracking functionality.",
+      image: "/lovable-uploads/ufs-overview.png",
       images: [
-        "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1560472355-536de3962603?w=600&h=400&fit=crop"
+        "/lovable-uploads/ufs-overview.png",
+        "/lovable-uploads/ufs-logo.png",
+        "/lovable-uploads/ufs-onboarding.png",
+        "/lovable-uploads/ufs-shopping.png",
+        "/lovable-uploads/ufs-welcome.png"
       ],
-      tech: ["HTML", "CSS", "JavaScript", "React", "Firebase"],
-      challenges: "Designing a system to track inventory efficiently while keeping the interface intuitive.",
-      techniques: "Implemented dynamic inventory updates, filtering options, and dashboards for producers and consumers.",
-      demo: "#",
+      tech: ["UI/UX Design", "Mobile Design", "Figma", "Adobe Illustrator"],
+      challenges: "Creating an intuitive interface that encourages sustainable behavior while making food waste reduction accessible and engaging for everyday users.",
+      techniques: "Developed green-themed design system, intuitive onboarding flow, category-based shopping interface, and engaging illustrations to promote environmental consciousness.",
+      demo: "https://www.behance.net/gallery/208155957/UpCycled-Food-System",
+      figma: "https://www.figma.com/design/QNk60WveAelgVUPDUbHzd2/UFS?node-id=14-7&t=3u0YYTGEFrUHTOng-1",
       code: "https://github.com/ghada901999/Upcycled-Food-System-UCFS-"
     }
   ];

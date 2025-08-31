@@ -171,6 +171,16 @@ const ProjectLightbox = ({ project, children }: ProjectLightboxProps) => {
                       View on Figma
                     </Button>
                   )}
+                  {project.code && project.code !== "#" && (
+                    <Button 
+                      variant="outline" 
+                      className="border-primary/30 text-foreground hover:bg-primary/10 w-full"
+                      onClick={() => window.open(project.code, '_blank')}
+                    >
+                      <Github className="h-4 w-4 mr-2" />
+                      Source Code
+                    </Button>
+                  )}
                 </>
               ) : (
                 <Button 
