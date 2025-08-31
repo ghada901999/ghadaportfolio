@@ -8,17 +8,19 @@ const Projects = () => {
     {
       title: "Oakora – Brand Identity",
       category: "Design",
-      description: "A minimalist brand identity inspired by nature's elegance, featuring a clean, earthy design system with logo, typography, and color palette.",
-      fullDescription: "A minimalist brand identity inspired by nature's elegance, featuring a clean, earthy design system with logo, typography, and color palette.",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      description: "A furniture brand specializing in contemporary living solutions, featuring comprehensive brand identity, website design, and product showcasing with nature-inspired elements.",
+      fullDescription: "A furniture brand specializing in contemporary living solutions, featuring comprehensive brand identity, website design, and product showcasing with nature-inspired elements.",
+      image: "/lovable-uploads/2591ca4c-3d30-447c-8e09-59b42b7af761.png",
       images: [
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop"
+        "/lovable-uploads/2591ca4c-3d30-447c-8e09-59b42b7af761.png",
+        "/lovable-uploads/50e42d77-4501-4b4b-b62d-0c96ea49c7ea.png",
+        "/lovable-uploads/cad79a4a-54fb-45a6-90aa-b4508485b990.png",
+        "/lovable-uploads/ce40523a-855f-40bb-aeeb-e9f63344b125.png",
+        "/lovable-uploads/e6f24201-0d50-48e9-86d6-8dcac2b6045d.png"
       ],
-      tech: ["Adobe Illustrator", "Adobe Photoshop", "Adobe InDesign"],
-      challenges: "Ensuring a cohesive visual system that maintains simplicity while conveying elegance and connection to nature.",
-      techniques: "Used consistent earthy tones, geometric patterns, and modular typography to create a harmonious and versatile design system.",
+      tech: ["Adobe Illustrator", "Adobe Photoshop", "Web Design", "UI/UX"],
+      challenges: "Creating a cohesive brand identity that works across digital platforms and reflects the contemporary furniture aesthetic.",
+      techniques: "Developed nature-inspired logo variations, modern website interface, and consistent visual elements that emphasize clean design and sustainability.",
       demo: "https://www.behance.net/gallery/207992099/oakora",
       code: "#"
     },
