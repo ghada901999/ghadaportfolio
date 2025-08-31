@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, Lightbulb, Wrench } from "lucide-react";
+import { ExternalLink, Github, Lightbulb, Wrench, Figma } from "lucide-react";
 import ProjectLightbox from "./ProjectLightbox";
 
 const Projects = () => {
@@ -22,6 +22,7 @@ const Projects = () => {
       challenges: "Creating a cohesive brand identity that works across digital platforms and reflects the contemporary furniture aesthetic.",
       techniques: "Developed nature-inspired logo variations, modern website interface, and consistent visual elements that emphasize clean design and sustainability.",
       demo: "https://www.behance.net/gallery/207992099/oakora",
+      figma: "https://www.figma.com/design/lB1hrfWJeqjgdJnFeWNpey/Furniture?node-id=0-1&t=lA9Zcvj0BgKFdQ8Y-1",
       code: "#"
     },
     {
@@ -70,18 +71,21 @@ const Projects = () => {
     {
       title: "Mahali – Brand Identity",
       category: "Design",
-      description: "A vibrant and culturally rich brand identity reflecting the essence of traditional craftsmanship, featuring intricate patterns and earthy tones.",
-      fullDescription: "A vibrant and culturally rich brand identity reflecting the essence of traditional craftsmanship, featuring intricate patterns and earthy tones.",
-      image: "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=600&h=400&fit=crop",
+      description: "An online marketplace platform for local Jordanian shops, featuring comprehensive e-commerce functionality, brand identity, and user-friendly interface design.",
+      fullDescription: "An online marketplace platform for local Jordanian shops, featuring comprehensive e-commerce functionality, brand identity, and user-friendly interface design.",
+      image: "/lovable-uploads/f4b5b3ba-3c86-493a-9f42-fcf2bc0fb8cb.png",
       images: [
-        "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=600&h=400&fit=crop"
+        "/lovable-uploads/f4b5b3ba-3c86-493a-9f42-fcf2bc0fb8cb.png",
+        "/lovable-uploads/1dbb980b-57ca-4d9b-b726-b8de3085162e.png",
+        "/lovable-uploads/4c4bacf0-d481-4a29-b194-4d3b336d1587.png",
+        "/lovable-uploads/d95fa327-23ec-4e20-a241-85853ef68334.png",
+        "/lovable-uploads/1b6dd230-b137-444c-9ab1-66f1441e8124.png"
       ],
-      tech: ["Adobe Illustrator", "Adobe Photoshop", "Procreate"],
-      challenges: "Incorporating traditional patterns without making the design feel outdated or cluttered.",
-      techniques: "Created custom patterns inspired by local crafts, paired with earthy, complementary colors for a modern-traditional fusion.",
+      tech: ["UI/UX Design", "Adobe Illustrator", "Figma", "Web Design"],
+      challenges: "Creating a platform that connects local Jordanian shops with customers while maintaining cultural authenticity and modern usability.",
+      techniques: "Developed Arabic-English bilingual interface, integrated Jordanian flag symbolism, and created intuitive shopping flow with customer/shop owner differentiation.",
       demo: "https://www.behance.net/gallery/207992465/Mahali",
+      figma: "https://www.figma.com/design/EDGS0eBDhBY98ZSu0XL0ln/Mahali?node-id=0-1&t=Hjy7QvswYzAiA6dJ-1",
       code: "#"
     }
   ];

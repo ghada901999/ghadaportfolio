@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, X, ChevronLeft, ChevronRight } from "lucide-react";
+import { ExternalLink, Github, X, ChevronLeft, ChevronRight, Figma } from "lucide-react";
 
 interface Project {
   title: string;
@@ -14,6 +14,7 @@ interface Project {
   techniques: string;
   demo: string;
   code: string;
+  figma?: string;
   category?: string;
 }
 
@@ -150,15 +151,27 @@ const ProjectLightbox = ({ project, children }: ProjectLightboxProps) => {
               </p>
             </div>
 
-            <div className="flex space-x-4 pt-4">
+            <div className="flex flex-col space-y-3 pt-4">
               {project.category === "Design" ? (
-                <Button 
-                  className="bg-gradient-primary hover:opacity-90 w-full"
-                  onClick={() => window.open(project.demo, '_blank')}
-                >
-                  <ExternalLink className="h-4 w-4 mr-2" />
-                  View on Behance
-                </Button>
+                <>
+                  <Button 
+                    className="bg-gradient-primary hover:opacity-90 w-full"
+                    onClick={() => window.open(project.demo, '_blank')}
+                  >
+                    <ExternalLink className="h-4 w-4 mr-2" />
+                    View on Behance
+                  </Button>
+                  {project.figma && (
+                    <Button 
+                      variant="outline" 
+                      className="border-primary/30 text-foreground hover:bg-primary/10 w-full"
+                      onClick={() => window.open(project.figma, '_blank')}
+                    >
+                      <Figma className="h-4 w-4 mr-2" />
+                      View on Figma
+                    </Button>
+                  )}
+                </>
               ) : (
                 <Button 
                   variant="outline" 
