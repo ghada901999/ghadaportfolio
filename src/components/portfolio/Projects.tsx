@@ -25,17 +25,20 @@ const Projects = () => {
     {
       title: "AuraGlow – Brand Identity",
       category: "Design",
-      description: "A nature-inspired, elegant brand identity blending modern aesthetics with organic elements, showcasing a cohesive visual system including logo, typography, and social media templates.",
-      fullDescription: "A nature-inspired, elegant brand identity blending modern aesthetics with organic elements, showcasing a cohesive visual system including logo, typography, and social media templates.",
-      image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&h=400&fit=crop",
+      description: "A cosmetics brand identity specializing in blush products, featuring elegant packaging design, product compacts, and promotional materials with a warm, feminine color palette.",
+      fullDescription: "A cosmetics brand identity specializing in blush products, featuring elegant packaging design, product compacts, and promotional materials with a warm, feminine color palette.",
+      image: "/lovable-uploads/f6e60c11-23eb-42c0-bf36-b5ddc33c2f9d.png",
       images: [
-        "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop"
+        "/lovable-uploads/f6e60c11-23eb-42c0-bf36-b5ddc33c2f9d.png",
+        "/lovable-uploads/a8293ace-695f-49ae-bab1-eeef2ebf3df9.png",
+        "/lovable-uploads/e6177607-be38-4171-b3b8-ba42db4aa585.png",
+        "/lovable-uploads/c6e0139c-f827-4c99-a9ec-1c871a2adc47.png",
+        "/lovable-uploads/d2f52a27-0a4b-41b5-8ebf-6511f2adcd9f.png",
+        "/lovable-uploads/4673df7f-3b12-4f8e-ac65-f662519a9e18.png"
       ],
       tech: ["Adobe Illustrator", "Adobe Photoshop", "Figma"],
-      challenges: "Creating a brand identity that balances organic shapes with modern design elements.",
-      techniques: "Applied soft gradients, natural textures, and modular social media templates to maintain visual consistency.",
+      challenges: "Creating a cohesive brand identity for cosmetics that conveys quality and elegance while appealing to the target demographic.",
+      techniques: "Developed a warm color palette, elegant typography, and consistent packaging design across all product lines and promotional materials.",
       demo: "https://www.behance.net/gallery/207842173/AuraGlow",
       code: "#"
     },
