@@ -184,7 +184,7 @@ const Projects = () => {
             {designProjects.map((project, index) => (
               <ProjectLightbox key={`design-${index}`} project={project}>
                 <Card 
-                  className="glass-card border-0 overflow-hidden group cursor-pointer hover:shadow-card-hover transition-all duration-500 animate-fade-in"
+                  className="glass-card border-0 overflow-hidden group cursor-pointer hover:shadow-card-hover transition-all duration-500 animate-fade-in hover:scale-105 hover:-translate-y-2 transform"
                   style={{ animationDelay: `${0.4 + index * 0.2}s` }}
                 >
                   <div className="relative overflow-hidden">
@@ -194,17 +194,17 @@ const Projects = () => {
                       className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex items-center justify-center">
-                      <div className="text-center text-white">
+                      <div className="text-center text-white transform scale-75 group-hover:scale-100 transition-transform duration-300">
                         <Lightbulb className="h-8 w-8 mx-auto mb-2 animate-pulse" />
                         <p className="font-serif font-medium">Click to explore</p>
                       </div>
                     </div>
                     
-                    {/* Project indicators */}
+                    {/* Animated project indicators */}
                     <div className="absolute top-4 right-4 flex space-x-2">
-                      <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
-                      <div className="w-2 h-2 bg-secondary rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
-                      <div className="w-2 h-2 bg-accent rounded-full animate-pulse" style={{ animationDelay: '1s' }}></div>
+                      <div className="w-2 h-2 bg-primary rounded-full animate-ping"></div>
+                      <div className="w-2 h-2 bg-secondary rounded-full animate-ping" style={{ animationDelay: '0.5s' }}></div>
+                      <div className="w-2 h-2 bg-accent rounded-full animate-ping" style={{ animationDelay: '1s' }}></div>
                     </div>
                   </div>
                   
@@ -259,7 +259,7 @@ const Projects = () => {
             {developmentProjects.map((project, index) => (
               <ProjectLightbox key={`dev-${index}`} project={project}>
                 <Card 
-                  className="glass-card border-0 overflow-hidden group cursor-pointer hover:shadow-card-hover transition-all duration-500 animate-fade-in"
+                  className="glass-card border-0 overflow-hidden group cursor-pointer hover:shadow-card-hover transition-all duration-500 animate-fade-in hover:scale-105 hover:-translate-y-2 transform"
                   style={{ animationDelay: `${0.4 + index * 0.2}s` }}
                 >
                   <div className="relative overflow-hidden">
@@ -269,17 +269,17 @@ const Projects = () => {
                       className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex items-center justify-center">
-                      <div className="text-center text-white">
+                      <div className="text-center text-white transform scale-75 group-hover:scale-100 transition-transform duration-300">
                         <Lightbulb className="h-8 w-8 mx-auto mb-2 animate-pulse" />
                         <p className="font-serif font-medium">Click to explore</p>
                       </div>
                     </div>
                     
-                    {/* Project indicators */}
+                    {/* Animated project indicators */}
                     <div className="absolute top-4 right-4 flex space-x-2">
-                      <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
-                      <div className="w-2 h-2 bg-secondary rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
-                      <div className="w-2 h-2 bg-accent rounded-full animate-pulse" style={{ animationDelay: '1s' }}></div>
+                      <div className="w-2 h-2 bg-primary rounded-full animate-ping"></div>
+                      <div className="w-2 h-2 bg-secondary rounded-full animate-ping" style={{ animationDelay: '0.5s' }}></div>
+                      <div className="w-2 h-2 bg-accent rounded-full animate-ping" style={{ animationDelay: '1s' }}></div>
                     </div>
                   </div>
                   

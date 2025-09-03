@@ -41,15 +41,15 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            <h3 className="text-2xl font-serif font-semibold text-primary">My Creative Journey</h3>
-            <p className="text-muted-foreground leading-relaxed font-body">
+            <h3 className="text-2xl font-serif font-semibold text-primary animate-slide-up">My Creative Journey</h3>
+            <p className="text-muted-foreground leading-relaxed font-body hover:text-foreground transition-colors duration-300">
               As a recent graduate from Jordan University of Science & Technology with a 
               Bachelor's in Software Engineering, I'm currently working remotely as a UX/UI Designer 
               at Dealers Auto Center, Texas. My passion lies at the intersection of technology and creativity, 
               where I've cultivated a unique blend of technical precision and artistic vision through 
               diverse experiences in frontend development, UI/UX design, and leadership roles.
             </p>
-            <p className="text-muted-foreground leading-relaxed font-body">
+            <p className="text-muted-foreground leading-relaxed font-body hover:text-foreground transition-colors duration-300">
               What drives me is the challenge of transforming complex problems into elegant, 
               user-friendly solutions. From building multiplayer games in C# to crafting 
               intuitive interfaces in Figma and Adobe XD, I approach every project with 
@@ -60,22 +60,22 @@ const About = () => {
           </div>
           
           <div className="relative animate-fade-in" style={{ animationDelay: '0.6s' }}>
-            <div className="glass-card p-8 rounded-2xl shadow-warm hover:shadow-card-hover transition-all duration-500 group">
+            <div className="glass-card p-8 rounded-2xl shadow-warm hover:shadow-card-hover transition-all duration-500 group hover:scale-105 transform">
               <div className="grid grid-cols-2 gap-6 text-center">
-                <div className="group-hover:scale-105 transition-transform duration-300">
-                  <div className="text-3xl font-serif font-bold gradient-text">2024</div>
+                <div className="group-hover:scale-110 transition-transform duration-300 hover:rotate-6 transform">
+                  <div className="text-3xl font-serif font-bold gradient-text animate-pulse">2024</div>
                   <div className="text-muted-foreground font-body">Graduate</div>
                 </div>
-                <div className="group-hover:scale-105 transition-transform duration-300">
-                  <div className="text-3xl font-serif font-bold gradient-text">6+</div>
+                <div className="group-hover:scale-110 transition-transform duration-300 hover:rotate-6 transform">
+                  <div className="text-3xl font-serif font-bold gradient-text animate-pulse" style={{ animationDelay: '0.5s' }}>6+</div>
                   <div className="text-muted-foreground font-body">Experiences</div>
                 </div>
-                <div className="group-hover:scale-105 transition-transform duration-300">
-                  <div className="text-3xl font-serif font-bold gradient-text">15+</div>
+                <div className="group-hover:scale-110 transition-transform duration-300 hover:rotate-6 transform">
+                  <div className="text-3xl font-serif font-bold gradient-text animate-pulse" style={{ animationDelay: '1s' }}>15+</div>
                   <div className="text-muted-foreground font-body">Projects</div>
                 </div>
-                <div className="group-hover:scale-105 transition-transform duration-300">
-                  <div className="text-3xl font-serif font-bold gradient-text">∞</div>
+                <div className="group-hover:scale-110 transition-transform duration-300 hover:rotate-6 transform">
+                  <div className="text-3xl font-serif font-bold gradient-text animate-pulse" style={{ animationDelay: '1.5s' }}>∞</div>
                   <div className="text-muted-foreground font-body">Creativity</div>
                 </div>
               </div>
@@ -87,14 +87,14 @@ const About = () => {
           {features.map((feature, index) => (
             <Card 
               key={index} 
-              className="glass-card p-6 text-center border-0 hover:shadow-card-hover transition-all duration-500 group animate-fade-in"
+              className="glass-card p-6 text-center border-0 hover:shadow-card-hover transition-all duration-500 group animate-fade-in hover:scale-105 hover:-translate-y-2 transform"
               style={{ animationDelay: `${0.8 + index * 0.1}s` }}
             >
-              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                <feature.icon className="h-6 w-6 text-white" />
+              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">
+                <feature.icon className="h-6 w-6 text-white group-hover:animate-pulse" />
               </div>
-              <h4 className="text-lg font-serif font-semibold mb-2 text-primary">{feature.title}</h4>
-              <p className="text-muted-foreground text-sm leading-relaxed font-body">
+              <h4 className="text-lg font-serif font-semibold mb-2 text-primary group-hover:text-primary-light transition-colors">{feature.title}</h4>
+              <p className="text-muted-foreground text-sm leading-relaxed font-body group-hover:text-foreground transition-colors">
                 {feature.description}
               </p>
             </Card>
