@@ -13,16 +13,16 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen flex flex-col relative overflow-hidden">
-      {/* Navigation */}
-      <nav className="w-full px-6 py-4 relative z-20">
+      {/* Navigation with professional backdrop */}
+      <nav className="w-full px-6 py-6 relative z-20 backdrop-blur-md bg-background/80 border-b border-primary/10">
         <div className="container mx-auto flex justify-between items-center">
           <Logo />
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#about" className="text-foreground hover:text-primary transition-colors font-body">About</a>
-            <a href="#experience" className="text-foreground hover:text-primary transition-colors font-body">Experience</a>
-            <a href="#projects" className="text-foreground hover:text-primary transition-colors font-body">Projects</a>
-            <a href="#skills" className="text-foreground hover:text-primary transition-colors font-body">Skills</a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors font-body">Contact</a>
+            <a href="#about" className="nav-link text-foreground hover:text-primary transition-colors font-medium">About</a>
+            <a href="#experience" className="nav-link text-foreground hover:text-primary transition-colors font-medium">Experience</a>
+            <a href="#projects" className="nav-link text-foreground hover:text-primary transition-colors font-medium">Projects</a>
+            <a href="#skills" className="nav-link text-foreground hover:text-primary transition-colors font-medium">Skills</a>
+            <a href="#contact" className="nav-link text-foreground hover:text-primary transition-colors font-medium">Contact</a>
             <a 
               href="https://www.behance.net/suga2002" 
               target="_blank"
@@ -31,20 +31,12 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="sm"
-                className="border-primary/30 text-foreground hover:bg-primary/10 mr-3"
+                className="border-primary/20 text-foreground hover:bg-primary/5 hover:border-primary/40 transition-all duration-300 backdrop-blur-sm"
               >
                 <Palette className="h-4 w-4 mr-2" />
                 Behance
               </Button>
             </a>
-            <Button 
-              variant="outline" 
-              size="sm"
-              className="border-primary/30 text-foreground hover:bg-primary/10"
-            >
-              <Download className="h-4 w-4 mr-2" />
-              Resume
-            </Button>
           </div>
         </div>
       </nav>
@@ -103,7 +95,7 @@ const Hero = () => {
                 <Button 
                   size="lg" 
                   onClick={scrollToProjects}
-                  className="bg-gradient-primary hover:opacity-90 transition-all duration-300 shadow-glow hover:shadow-card-hover font-serif font-medium hover:scale-105 transform"
+                  className="btn-primary bg-gradient-primary hover:opacity-90 transition-all duration-500 shadow-glow hover:shadow-card-hover font-serif font-medium hover:scale-105 transform relative overflow-hidden"
                 >
                   View My Work
                   <ArrowDown className="ml-2 h-4 w-4 animate-bounce" />
@@ -112,7 +104,7 @@ const Hero = () => {
                   variant="outline" 
                   size="lg"
                   onClick={scrollToContact}
-                  className="border-primary/30 text-foreground hover:bg-primary/10 transition-all duration-300 font-serif font-medium hover:scale-105 transform"
+                  className="border-primary/20 text-foreground hover:bg-primary/5 hover:border-primary/40 transition-all duration-500 font-serif font-medium hover:scale-105 transform backdrop-blur-sm"
                 >
                   Work With Me
                   <Mail className="ml-2 h-4 w-4" />
