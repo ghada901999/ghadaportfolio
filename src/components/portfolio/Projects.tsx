@@ -159,26 +159,6 @@ const Projects = () => {
       demo: "#",
       code: "https://github.com/ghada901999/Disaster-Management-Application-DMA-"
     },
-    {
-      title: "UpCycled Food System",
-      category: "Design",
-      description: "A comprehensive mobile app design for reducing food waste through upcycling surplus food, featuring intuitive user interface and sustainable shopping experience.",
-      fullDescription: "A comprehensive mobile app design for reducing food waste through upcycling surplus food, featuring intuitive user interface and sustainable shopping experience with onboarding, shopping categories, and waste tracking functionality.",
-      image: "/lovable-uploads/ufs-overview.png",
-      images: [
-        "/lovable-uploads/ufs-overview.png",
-        "/lovable-uploads/ufs-logo.png",
-        "/lovable-uploads/ufs-onboarding.png",
-        "/lovable-uploads/ufs-shopping.png",
-        "/lovable-uploads/ufs-welcome.png"
-      ],
-      tech: ["UI/UX Design", "Mobile Design", "Figma", "Adobe Illustrator"],
-      challenges: "Creating an intuitive interface that encourages sustainable behavior while making food waste reduction accessible and engaging for everyday users.",
-      techniques: "Developed green-themed design system, intuitive onboarding flow, category-based shopping interface, and engaging illustrations to promote environmental consciousness.",
-      demo: "https://www.behance.net/gallery/208155957/UpCycled-Food-System",
-      figma: "https://www.figma.com/design/QNk60WveAelgVUPDUbHzd2/UFS?node-id=14-7&t=3u0YYTGEFrUHTOng-1",
-      code: "https://github.com/ghada901999/Upcycled-Food-System-UCFS-"
-    }
   ];
 
   const allProjects = [...designProjects, ...developmentProjects];

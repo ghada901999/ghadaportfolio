@@ -59,14 +59,6 @@ const Contact = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-primary/30 text-foreground hover:bg-primary/10 font-serif font-medium"
-            >
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
               className="border-secondary/30 text-foreground hover:bg-secondary/10 font-serif font-medium"
               onClick={() => window.open('https://www.linkedin.com/in/ghada-msallam-33a079262/', '_blank')}
             >
